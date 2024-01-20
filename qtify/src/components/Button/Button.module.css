@@ -10,4 +10,6 @@
   background-color: var(--color-black);
   color: var(--color-primary);
   font-size: 18px;
+  cursor: pointer;
+  font-family: Poppins;
 }
