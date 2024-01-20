@@ -1,0 +1,22 @@
+.hero {
+  height: 270px;
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.headph {
+  width: 212px;
+  height: 212px;
+}
