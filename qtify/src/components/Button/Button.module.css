@@ -1,0 +1,13 @@
+.btns {
+  width: 170px;
+  height: 47px;
+  top: 13px;
+  left: 1238px;
+  border-radius: 12px;
+  border: 1px;
+  padding: 10px, 16px, 10px, 16px;
+  gap: 10px;
+  background-color: var(--color-black);
+  color: var(--color-primary);
+  font-size: 18px;
+}
