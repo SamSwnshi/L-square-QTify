@@ -1,4 +1,5 @@
 import "./App.css";
+import Card from "./components/Card/Card";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <Card type="album" />
     </>
   );
 }
