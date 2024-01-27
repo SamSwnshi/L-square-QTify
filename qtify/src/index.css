@@ -29,3 +29,6 @@ body {
   --color-black: #121212;
   --color-white: #ffffff;
 }
+.swiper-slide {
+  width: auto !important;
+}
