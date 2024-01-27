@@ -13,7 +13,12 @@ function Card({ data, type }) {
             <Link to={`/album/${slug}`}>
               <div className={style.wrapper}>
                 <div className={style.card}>
-                  <img src={image} alt="album" loading="lazy" />
+                  <img
+                    src={image}
+                    alt="album"
+                    loading="lazy"
+                    className={style.img}
+                  />
                   <div className={style.banner}>
                     <Chip
                       label={`${follows} Follows`}
@@ -35,7 +40,12 @@ function Card({ data, type }) {
         return (
           <div className={style.wrapper}>
             <div className={style.card}>
-              <img src={image} alt="song" loading="lazy" />
+              <img
+                src={image}
+                alt="song"
+                loading="lazy"
+                className={style.img}
+              />
               <div className={style.banner}>
                 <div className={style.pill}>
                   <p>{likes}Likes</p>
