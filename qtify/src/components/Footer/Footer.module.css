@@ -1,0 +1,45 @@
+.wrapper {
+  height: 130px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.songBox {
+  width: 177px;
+  height: 82px;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid salmon;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 400;
+}
+.album {
+  font-size: 10px;
+  font-weight: 400;
+}
+.songImg {
+  width: 75.85px;
+  height: 82px;
+}
+.musicbar {
+  width: 676px !important;
+  height: 6px;
+  
+}
+.icons {
+  width: 48px;
+  height: 48px;
+  border: 1px solid red;
+  margin: auto;
+  color: var(--color-white);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

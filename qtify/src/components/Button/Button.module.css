@@ -13,3 +13,47 @@
   cursor: pointer;
   font-family: Poppins;
 }
+.wrapper {
+  width: 526px;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.sum {
+  width: 192px;
+  height: 53px;
+  background-color: #34c94b;
+  color: var(--color-white);
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+}
+.inputtag {
+  width: 462px;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid #34c94b;
+}
+::placeholder{
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.feed{
+  margin: auto;
+ 
+
+}
+.description {
+  width: 462px;
+  height: 136px;
+  border-radius: 5px;
+  border: 1px solid #34c94b;
+
+}

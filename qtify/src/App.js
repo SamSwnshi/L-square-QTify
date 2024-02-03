@@ -3,6 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import { fetchAlbums, fetchNewAlbums, fetchNewSongs } from "./api/api";
 import { useEffect, useState } from "react";
+import Faq from "./components/Faq/Faq";
+import Footer from "./components/Footer/Footer"
 
 function App() {
   const [searchData, useSearchData] = useState();
@@ -26,6 +28,8 @@ function App() {
       <div>
         <Navbar />
         <Outlet context={{ data: { topAlbums, newAlbums, songs } }} />
+        <Faq/>
+        {/* <Footer /> */}
       </div>
     </>
   );

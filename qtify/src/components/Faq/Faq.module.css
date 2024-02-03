@@ -1,0 +1,39 @@
+.wrapper{
+    width: 1135px;
+    height: 345px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.heading{
+    font-size: 50px;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.rapper{
+    border: 1px solid #ffffff;
+    border-radius: 10px !important;
+}
+.summary{
+    width: 1135px;
+    height: 78px;
+    border-radius: 10px !important;
+    font-weight: 500;
+    background-color: var(--color-black) !important;
+    color: var(--color-white) !important;
+    font-size: 20px;
+
+}
+.details{
+    height: 78px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
