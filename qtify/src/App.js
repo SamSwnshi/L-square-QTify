@@ -7,7 +7,6 @@ import Faq from "./components/Faq/Faq";
 import Footer from "./components/Footer/Footer"
 
 function App() {
-  const [searchData, useSearchData] = useState();
   const [data, setData] = useState({});
   const genrateData = (key, source) => {
     source().then((data) => {
